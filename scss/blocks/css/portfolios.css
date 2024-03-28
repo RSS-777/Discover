@@ -1,0 +1,25 @@
+.portfolios {
+  display: flex;
+  justify-content: center;
+  margin-top: 29px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.portfolios__content {
+  max-width: 1040px;
+}
+.portfolios__images {
+  position: relative;
+}
+.portfolios__text {
+  position: absolute;
+  bottom: 56px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.portfolios__title {
+  position: absolute;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+}/*# sourceMappingURL=portfolios.css.map */

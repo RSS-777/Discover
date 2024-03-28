@@ -1,0 +1,20 @@
+@include tablet () {
+    .location {
+        &__images {
+            max-width: 350px;
+            width: 45vw;
+        }
+    }
+}
+
+@include modile () {
+    .location {
+        &__images {
+            width: 45vw;
+
+            &_button {
+                width: 45vw;
+            }
+        }
+    }
+}

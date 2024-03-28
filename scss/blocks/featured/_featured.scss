@@ -1,0 +1,52 @@
+.featured {
+    padding: 48px 10px 0;
+
+    &__details {
+        margin-top: 16px;
+        height: fit-content;
+    }
+
+    &__image {
+        width: 35%;
+        background-image: url('../../../images/featured/featured.svg');
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+
+    &__content {
+        padding: 32px 48px 0;
+        width: 65%;
+    }
+
+    &__page-current {
+        color: var(--color-primary-500)
+    }
+
+    &__page-all {
+        color: var(--color-primary-200);
+    }
+
+    &__titles {
+        margin-top: 24px;
+    }
+
+    &__text {
+        margin-top: 16px;
+    }
+
+    &__buttons {
+        display: flex;
+        justify-content: space-between;
+        margin: 72px 0 32px;
+    }
+
+    &__button {
+        border: none;
+        background-color: transparent;
+    }
+
+    &__icon {
+        color: var(--color-primary-300)
+    }
+}

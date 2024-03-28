@@ -1,0 +1,13 @@
+@include laptop () {
+    .container {
+        &_images {
+            gap: 8px;
+        }
+    }
+}
+
+@include tablet () {
+
+}
+
+@include modile () {}

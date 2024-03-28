@@ -1,0 +1,63 @@
+.ellipse {
+  position: absolute;
+  top: -120px;
+  z-index: 1;
+  width: 100%;
+  height: 150px;
+}
+
+.location {
+  position: relative;
+  z-index: 2;
+
+  &_flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__title {
+    text-align: center;
+  }
+
+  &__text {
+    text-align: center;
+    margin-top: 4px;
+  }
+
+  &__images {
+    position: relative;
+    max-width: calc(24.5% - 8px);
+
+    &_button {
+      background-color: var(--color-primary-500);
+      width: 247px;
+      border-radius: 8px;
+    }
+  }
+
+  &__image {
+    margin-bottom: -5px;
+  }
+
+  &__image-text {
+    position: absolute;
+    bottom: 8.5px;
+    left: 8px;
+  }
+
+  &__button {
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: 14px;
+    right: 14px;
+  }
+
+  &__link {
+    &:hover {
+      cursor: pointer;
+      width: 12px;
+    }
+  }
+}

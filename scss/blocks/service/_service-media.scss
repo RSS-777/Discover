@@ -1,0 +1,25 @@
+@include laptop() {
+    .services {
+        &_flex {
+           justify-content: center;
+           margin-top: 72px;
+        }
+
+        &__body {
+            flex-direction: column;
+        }
+    
+        &__content {
+            max-width: 100%;
+            padding: 24px 32px;
+            margin-left: 0;
+        }
+    
+        &__pictures {
+            margin-top: 23px;
+            margin-bottom: 33px;
+            flex-wrap: wrap;
+            height: fit-content;
+        }
+    }
+}
