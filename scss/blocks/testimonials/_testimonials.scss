@@ -1,0 +1,48 @@
+.testimonials {
+    margin-top: 104px;
+    background-color: #585B56;
+    min-height: 554px;
+
+    &__titles {
+        margin-top: 48px;
+        border: 2px solid black;
+    }
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 48px;
+        max-width: 894px;
+        min-height: 168px;
+        border: 2px solid yellow;
+    }
+
+    &__marks {
+        overflow-y: hidden;
+        width: 130px;
+        font-family: var(--font-family-sans);
+        font-weight: 500;
+        font-size: 84px;
+        line-height: 106%;
+        letter-spacing: -0.08em;
+        color: var(--color-primary-600);
+        border: 2px solid green;
+    }
+
+    &__texts {
+        margin: 0 16px;
+        border: 2px solid red;
+        text-align: center;
+    }
+
+    &__text2 {
+        margin-top: 25px;
+    }
+
+    &__images {
+        margin-top: 48px;
+        width: 88px;
+        height: 119px;
+        border: 2px solid purple;
+    }
+}

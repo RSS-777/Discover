@@ -1,4 +1,4 @@
-@import './common/fonts', './common/media', './common/mixins', './common/normalize', './common/utils', './common/variables','./common/globals', './common/extends';
+@import './common/fonts', './common/media', './common/mixins', './common/normalize', './common/variables','./common/globals', './common/extends';
 
 @import './blocks/header/header', './blocks/header/header-media';
 @import './blocks/navigation/navigation', './blocks/navigation/navigation-media';
@@ -8,4 +8,5 @@
 @import './blocks/container/container', './blocks/container/container-media';
 @import './blocks/service/service', './blocks/service/service-media';
 @import './blocks/portfolios/portfolios';
+@import './blocks/testimonials/testimonials', './blocks/testimonials/testimonials-media';
 
