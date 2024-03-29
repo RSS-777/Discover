@@ -176,6 +176,53 @@ h4 {
   color: var(--color-neutral-0);
 }
 
+.testimonials__title {
+  color: var(--color-neutral-0);
+}
+
+.testimonials__title {
+  color: var(--color-neutral-0);
+}
+
+.testimonials__title-text {
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--color-primary-300);
+}
+
+.testimonials__text,
+.testimonials__text2 {
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--color-neutral-0);
+}
+
+.contacts__text {
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--color-primary-300);
+}
+
+.contacts__form-title {
+  font-family: var(--font-family-switzer-med);
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--color-primary-500);
+}
+
+.contacts__button {
+  font-family: var(--font-family-switzer-sem);
+  font-size: 16px;
+  line-height: 175%;
+  color: var(--color-neutral-0);
+}
+
+.contacts__textarea {
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--color-neutral-40);
+}
+
 .header {
   height: 904px;
   background-image: url("../../images/header/img_placeholder.png");
@@ -498,6 +545,9 @@ h4 {
   gap: 16px;
   margin-top: 24px;
 }
+.container_pos {
+  position: relative;
+}
 
 @media (max-width: 1024px) {
   .container_images {
@@ -592,36 +642,35 @@ h4 {
 }
 
 .testimonials {
+  display: flex;
+  justify-content: center;
+  position: relative;
   margin-top: 104px;
   background-color: #585B56;
   min-height: 554px;
 }
 .testimonials__titles {
   margin-top: 48px;
-  border: 2px solid black;
+  text-align: center;
 }
 .testimonials__content {
   display: flex;
   justify-content: space-between;
-  margin-top: 48px;
+  margin: 48px 66px 0;
   max-width: 894px;
   min-height: 168px;
-  border: 2px solid yellow;
 }
 .testimonials__marks {
-  overflow-y: hidden;
-  width: 130px;
+  width: 48px;
   font-family: var(--font-family-sans);
   font-weight: 500;
   font-size: 84px;
   line-height: 106%;
   letter-spacing: -0.08em;
   color: var(--color-primary-600);
-  border: 2px solid green;
 }
 .testimonials__texts {
   margin: 0 16px;
-  border: 2px solid red;
   text-align: center;
 }
 .testimonials__text2 {
@@ -631,5 +680,110 @@ h4 {
   margin-top: 48px;
   width: 88px;
   height: 119px;
-  border: 2px solid purple;
+}
+.testimonials__button-left {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  background-color: transparent;
+  border: none;
+  height: 32px;
+  width: 32px;
+}
+.testimonials__button-left:hover {
+  cursor: pointer;
+  border: 0.8px solid blue;
+  border-radius: 50%;
+  box-shadow: 0 0 2px 0 blue;
+}
+.testimonials__button-right {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  height: 32px;
+  width: 32px;
+}
+.testimonials__button-right:hover {
+  cursor: pointer;
+  border: 0.8px solid blue;
+  border-radius: 50%;
+  box-shadow: 0 0 2px 0 blue;
+}
+
+@media (max-width: 768px) {
+  .testimonials__content {
+    margin: 48px 24.5px 0;
+  }
+  .testimonials__images {
+    margin-bottom: 48px;
+  }
+  .testimonials__button-left {
+    top: inherit;
+    bottom: 97px;
+    transform: translateX(-100px);
+    left: 50%;
+  }
+  .testimonials__button-right {
+    top: inherit;
+    right: 50%;
+    transform: translateX(100px);
+    bottom: 97px;
+  }
+}
+.contacts {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+  border: 2px solid rgb(255, 0, 0);
+}
+.contacts__content {
+  display: flex;
+  justify-content: space-between;
+  border: 2px dotted black;
+}
+.contacts__forms {
+  margin-top: 56px;
+  border: 2px solid rgb(13, 255, 0);
+}
+.contacts__form {
+  display: flex;
+  flex-direction: column;
+}
+.contacts__form-title {
+  margin-top: 24px;
+}
+.contacts__input {
+  border: 1px solid var(--color-neutral-20);
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 480px;
+  height: 40px;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--color-neutral-40);
+  margin-top: 8px;
+}
+.contacts__textarea {
+  border: 1px solid var(--color-neutral-20);
+  border-radius: 8px;
+  padding: 8px 16px;
+  margin-top: 8px;
+  width: 480px;
+  height: 162px;
+  resize: none;
+}
+.contacts__button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 160px;
+  height: 44px;
+  margin-top: 24px;
+  background: var(--color-primary-500);
+}
+.contacts__maps {
+  border: 2px solid red;
 }/*# sourceMappingURL=main.css.map */

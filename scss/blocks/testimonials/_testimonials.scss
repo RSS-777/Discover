@@ -1,37 +1,36 @@
 .testimonials {
+    display: flex;
+    justify-content: center;
+    position: relative;
     margin-top: 104px;
     background-color: #585B56;
     min-height: 554px;
 
     &__titles {
         margin-top: 48px;
-        border: 2px solid black;
+        text-align: center;
     }
 
     &__content {
         display: flex;
         justify-content: space-between;
-        margin-top: 48px;
+        margin: 48px 66px 0;
         max-width: 894px;
         min-height: 168px;
-        border: 2px solid yellow;
     }
 
     &__marks {
-        overflow-y: hidden;
-        width: 130px;
+        width: 48px;
         font-family: var(--font-family-sans);
         font-weight: 500;
         font-size: 84px;
         line-height: 106%;
         letter-spacing: -0.08em;
         color: var(--color-primary-600);
-        border: 2px solid green;
     }
 
     &__texts {
         margin: 0 16px;
-        border: 2px solid red;
         text-align: center;
     }
 
@@ -43,6 +42,41 @@
         margin-top: 48px;
         width: 88px;
         height: 119px;
-        border: 2px solid purple;
+    }
+
+    &__button-left {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+        background-color: transparent;
+        border: none;
+        height: 32px;
+        width: 32px;
+
+        &:hover {
+            cursor: pointer;
+            border: 0.8px solid blue;
+            border-radius: 50%;
+            box-shadow: 0 0 2px 0 blue;
+        }
+    }
+
+    &__button-right {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        background-color: transparent;
+        border: none;
+        height: 32px;
+        width: 32px;
+
+        &:hover {
+            cursor: pointer;
+            border: 0.8px solid blue;
+            border-radius: 50%;
+            box-shadow: 0 0 2px 0 blue;
+        }
     }
 }

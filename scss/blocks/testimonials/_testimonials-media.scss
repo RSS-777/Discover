@@ -1,0 +1,25 @@
+@include tablet() {
+    .testimonials {
+        &__content {
+            margin: 48px 24.5px 0;
+        }
+
+        &__images {
+            margin-bottom: 48px;
+        }
+
+        &__button-left {
+            top: inherit;
+            bottom: 97px;
+            transform: translateX(-100px);
+            left: 50%;
+        }
+
+        &__button-right {
+            top: inherit;
+            right: 50%;
+            transform: translateX(100px);
+            bottom: 97px;
+        }
+    }
+}
