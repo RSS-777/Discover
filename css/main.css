@@ -223,6 +223,19 @@ h4 {
   color: var(--color-neutral-40);
 }
 
+.contacts__text-title {
+  font-family: var(--font-family-switzer-med);
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--color-primary-500);
+}
+
+.contacts__text {
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--color-primary-400);
+}
+
 .header {
   height: 904px;
   background-image: url("../../images/header/img_placeholder.png");
@@ -537,6 +550,7 @@ h4 {
 }
 .container_size {
   max-width: 1040px;
+  width: 100%;
 }
 .container_images {
   display: flex;
@@ -738,16 +752,15 @@ h4 {
   display: flex;
   justify-content: center;
   margin-top: 24px;
-  border: 2px solid rgb(255, 0, 0);
 }
 .contacts__content {
   display: flex;
   justify-content: space-between;
-  border: 2px dotted black;
+  align-items: center;
 }
 .contacts__forms {
   margin-top: 56px;
-  border: 2px solid rgb(13, 255, 0);
+  width: 45%;
 }
 .contacts__form {
   display: flex;
@@ -760,7 +773,6 @@ h4 {
   border: 1px solid var(--color-neutral-20);
   border-radius: 8px;
   padding: 8px 16px;
-  width: 480px;
   height: 40px;
   font-size: 16px;
   line-height: 150%;
@@ -772,7 +784,6 @@ h4 {
   border-radius: 8px;
   padding: 8px 16px;
   margin-top: 8px;
-  width: 480px;
   height: 162px;
   resize: none;
 }
@@ -785,5 +796,45 @@ h4 {
   background: var(--color-primary-500);
 }
 .contacts__maps {
-  border: 2px solid red;
+  max-width: 393px;
+  position: relative;
+}
+.contacts__image {
+  width: 393px;
+  height: 330px;
+}
+.contacts__location {
+  position: absolute;
+  z-index: 2;
+  top: 30%;
+  left: 40%;
+  width: 28px;
+  height: 28px;
+}
+.contacts__info {
+  padding-top: 24px;
+}
+.contacts__text-title {
+  padding-bottom: 8px;
+}
+.contacts__text {
+  padding-bottom: 8px;
+}
+
+@media (max-width: 768px) {
+  .contacts {
+    margin-top: 0;
+  }
+  .contacts__content {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contacts__forms {
+    margin-top: 48px;
+    max-width: 393px;
+    width: 100%;
+  }
+  .contacts__maps {
+    margin-top: 56px;
+  }
 }/*# sourceMappingURL=main.css.map */
