@@ -250,7 +250,7 @@ h4 {
 
 .header {
   height: 904px;
-  background-image: url("../../../images/header/foto-header.jpg");
+  background-image: url("../images/header/foto-header.jpg");
   background-size: cover;
   background-position: 50% bottom;
 }
