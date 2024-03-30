@@ -1,8 +1,15 @@
+@include laptop () {
+    .location {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
 @include tablet () {
     .location {
         &__images {
-            max-width: 350px;
-            width: 45vw;
+            max-width: 360px;
+            width: 45.5vw;
         }
     }
 }
@@ -10,10 +17,10 @@
 @include modile () {
     .location {
         &__images {
-            width: 45vw;
+            width: 44vw;
 
             &_button {
-                width: 45vw;
+                width: 44vw;
             }
         }
     }

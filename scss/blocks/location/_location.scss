@@ -9,6 +9,8 @@
 .location {
   position: relative;
   z-index: 2;
+  margin-left: 10px;
+  margin-right: 10px;
 
   &_flex {
     display: flex;

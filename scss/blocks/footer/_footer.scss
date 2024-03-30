@@ -1,0 +1,18 @@
+.footer {
+    background-color: var(--color-neutral-50);
+    margin-top: 56px;
+    
+    &__nav {
+        &_flex {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            min-height: 80px;
+        }
+    }
+
+    &__logo {
+        width: 35px;
+        height: 44px;
+    }
+}

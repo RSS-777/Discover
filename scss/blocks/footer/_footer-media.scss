@@ -1,0 +1,21 @@
+@include modile() {
+  .footer {
+    background-color: var(--color-neutral-50);
+    margin-top: 56px;
+    padding: 48px 32px 74px;
+    
+    &__nav {
+        &_flex {
+            flex-direction: column;
+            gap: 48px;
+            justify-content: space-around;
+            align-items: flex-start;
+        }
+    }
+
+    &__logo {
+        width: 35px;
+        height: 44px;
+    }
+  }
+}
