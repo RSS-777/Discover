@@ -107,7 +107,7 @@ h2 {
 h3 {
   font-family: var(--font-family-sans);
   font-weight: 700;
-  font-size: 24px;
+  font-size: clamp(18px, 1.6666666667vw, 24px);
   line-height: 133%;
   letter-spacing: -0.02em;
   color: var(--color-neutral-0);
@@ -164,7 +164,7 @@ h4 {
 }
 
 .portfolios__text {
-  font-size: 14px;
+  font-size: clamp(12px, 0.9722222222vw, 14px);
   line-height: 157%;
   color: var(--color-neutral-20);
 }
