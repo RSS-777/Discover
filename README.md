@@ -1,4 +1,4 @@
-1# Discover
+# Discover
 >This is a simple wedding themed website that adapts to any device. The site was created from a layout in "Figma".
 
 ### Tech stack
